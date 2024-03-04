@@ -1,0 +1,65 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.active{
+  color: red;
+}
+
+#menu{
+  margin-right: 20px;
+  text-decoration: none;
+  display: inline-flex;
+}
+
+.img-pikachu{
+  height: 400px;
+}
+
+.title{
+  padding: 20px;
+}
+
+.title-select{
+  padding: 20px;
+  margin-top: 140px;
+}
+
+.pokemones{
+  width: 200px;
+  height: 30px;
+  text-align: center;
+}
+
+.btn-poke{
+  margin-top: 30px;
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.cls-pokemon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail-pokemon{
+  height: 150px;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.ul-card{
+  text-align: left;
+}
